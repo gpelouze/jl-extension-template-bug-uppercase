@@ -10,7 +10,8 @@ import { requestAPI } from './handler';
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   id: 'test-uppercase:plugin',
-  description: 'A JupyterLab extension with a Python module name containing some uppercase',
+  description:
+    'A JupyterLab extension with a Python module name containing some uppercase',
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
     console.log('JupyterLab extension test-uppercase is activated!');
